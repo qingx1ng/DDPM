@@ -32,13 +32,13 @@ Stable Diffusion 分为 Diffusion 和 Reverse 两个阶段。其中 Diffusion �
 ## 前向过程
 
 这个阶段就是不断地给真实图片加噪声，经过T TT步加噪之后，噪声强度不断变大，得到一张完全为噪声地图像。整个扩散过程可以近似看成一次加噪即变为噪声图。
-![image-20250616162251734](./assets/4.png)
+![image-20250618012703631](./assets/5.png)
 
 ## 逆向过程
 
 论文中的结论可以知道，这么做的效果比较差，图片是很模糊的，不符合逆扩散的过程，最好还是一步一步推。
 
-![image-20250616202221269](./assets/5.png)
+![image-20250616202221269](./assets/4.png)
 
 流程：
 
@@ -51,7 +51,7 @@ Stable Diffusion 分为 Diffusion 和 Reverse 两个阶段。其中 Diffusion �
 
 ## 项目复现
 
-## 1.数据预处理
+## 1.数据预处理$ pbcopy < ~/.ssh/id_rsa.pub
 
 从github下载data读取的python代码：https://github.com/fyu/lsun
 
