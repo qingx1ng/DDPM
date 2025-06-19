@@ -44,10 +44,11 @@
 ### 1.马尔可夫链原理
 
 **任意联合概率分布** $p(x_1, x_2, ..., x_T)$都可以写成：
-$$
-p(x_1, x_2, ..., x_T) = p(x_1) \cdot p(x_2 \mid x_1) \cdot p(x_3 \mid x_1, x_2) \cdots p(x_T \mid x_1, ..., x_{T-1})
-$$
+
+$p(x_1, x_2, ..., x_T) = p(x_1) \cdot p(x_2 \mid x_1) \cdot p(x_3 \mid x_1, x_2) \cdots p(x_T \mid x_1, ..., x_{T-1})$
+
 马尔可夫过程定义，其只与前一个时刻有关，故上述公式改为如下：
+
 <img src="./assets/1.png" alt="image-20250616161850837" style="zoom: 50%;" />       
 
 ### 2.重参数化过程
