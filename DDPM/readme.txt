@@ -1,0 +1,5 @@
+ddim_imgs和ddpm_imgs是生成和测试集数量相同的图像的文件夹
+
+resuls_ddim是任务4对每个无噪声x_0的预测图像的文件夹
+
+results是保存权重的文件夹
