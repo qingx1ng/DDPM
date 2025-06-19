@@ -78,7 +78,7 @@ $p(x_1, x_2, ..., x_T) = p(x_1) \cdot p(x_2 \mid x_1) \cdot p(x_3 \mid x_1, x_2)
 
 1.由上图可知，需要由X<sub>t</sub>推理得到X<sub>t-1</sub>,相当于已知X<sub>t</sub>概率，去求X<sub>t-1</sub>的条件概率
 
-* <img src="./assets/6.png" alt="image-20250616205323356" style="zoom: 50%;" />
+* <img src="./assets/6.png" alt="image-20250616205323356" width="400" />
 
 ## DDIM原理
 
