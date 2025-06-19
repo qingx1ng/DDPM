@@ -49,13 +49,13 @@ $p(x_1, x_2, ..., x_T) = p(x_1) \cdot p(x_2 \mid x_1) \cdot p(x_3 \mid x_1, x_2)
 
 马尔可夫过程定义，其只与前一个时刻有关，故上述公式改为如下：
 
-<img src="./assets/1.png" alt="image-20250616161850837" style="zoom: 50%;" />       
+<img src="./assets/1.png" alt="image-20250616161850837" width="400" />       
 
 ### 2.重参数化过程
 
 这里补充说明一下，重参数的过程，假设从某个正态分布N (μ,σ2 ∗ I )采样一个X的话，它可以等价于，从一个标准正态分布N(0,I)去采样一个Z，然后利用Z去生成X：
 
-<img src="./assets/2.png" alt="image-20250616210629947" style="zoom:50%;" />
+<img src="./assets/2.png" alt="image-20250616210629947" width="400" />
 
 ### 原理理解（非数学）
 
